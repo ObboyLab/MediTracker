@@ -1,0 +1,7 @@
+query selectCommoditiesByOwner {
+  description: "Select all commodities based on their owner"
+  statement:
+  SELECT org.meditracker.Product
+  	  WHERE (productId == _$productid)
+              
+       }
